@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/deewhyweb/raw-tcp/issues"
   },
-  "homepage": "https://github.com/deewhyweb/raw-tcp#readme"
+  "homepage": "https://github.com/deewhyweb/raw-tcp#readme",
+  "dependencies": {
+    "sni": "^1.0.0"
+  }
 }
