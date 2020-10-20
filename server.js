@@ -9,7 +9,7 @@ const options = {
   key: fs.readFileSync('certs/server/server.key'),
   cert: fs.readFileSync('certs/server/server.crt'),
   ca: fs.readFileSync('certs/ca/ca.crt'), // authority chain for the clients
-  requestCert: true, // ask for a client cert
+  requestCert: false, // ask for a client cert
   //rejectUnauthorized: false, // act on unauthorized clients at the app level
 };
 
